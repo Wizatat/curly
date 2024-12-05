@@ -1,0 +1,44 @@
+body {
+  margin: 0;
+  background: black;
+  color: white;
+  font-family: Arial, sans-serif;
+}
+
+#game-container {
+  position: relative;
+  margin: auto;
+  width: 600px;
+  height: 400px;
+  border: 2px solid white;
+  overflow: hidden;
+}
+
+#player {
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  width: 40px;
+  height: 20px;
+  background: lime;
+  transform: translateX(-50%);
+}
+
+#invaders {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+.invader {
+  position: absolute;
+  width: 40px;
+  height: 20px;
+  background: red;
+}
+.projectile {
+  position: absolute;
+  width: 5px;
+  height: 10px;
+  background: yellow;
+}
