@@ -21,7 +21,7 @@ body {
   left: 50%;
   width: 50px; /* Adjust size to fit your image */
   height: 50px; /* Adjust size to fit your image */
-  background: url('spaceship.png') no-repeat center;
+  background: url('space_invaders_rocketship.jfif') no-repeat center;
   background-size: contain;
 }
 
@@ -34,10 +34,14 @@ body {
   width: 100%;
 }
 .invader {
+.invader {
   position: absolute;
-  width: 40px;
-  height: 20px;
-  background: red;
+  width: 50px; /* Adjust size to fit your image */
+  height: 50px; /* Adjust size to fit your image */
+  background: url('alien.jfif') no-repeat center;
+  background-size: contain;
+}
+
 }
 .projectile {
   position: absolute;
